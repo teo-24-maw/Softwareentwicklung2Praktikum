@@ -1,4 +1,4 @@
-public class dozierender {
+public class Dozierender {
 
     private String name;
     private String fakultaet;
@@ -11,7 +11,7 @@ public class dozierender {
         this.bueronummer = bueronummer;
     }
 
-    // Getter
+    // Getterrrrrrrrrrrr
     public String getName() {
         return name;
     }
