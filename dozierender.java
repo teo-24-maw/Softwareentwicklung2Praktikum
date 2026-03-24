@@ -11,7 +11,6 @@ public class Dozierender {
         this.bueronummer = bueronummer;
     }
 
-    // Getterrrrrrrrrrrr
     public String getName() {
         return name;
     }
@@ -24,7 +23,6 @@ public class Dozierender {
         return bueronummer;
     }
 
-    // Methode: Frage beantworten
     public String frageBeantworten(Studierender s, String frage) {
         return "Dozierender " + name + " beantwortet die Frage von "
                 + s.getName() + ": \"" + frage + "\"";
