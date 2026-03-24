@@ -2,10 +2,13 @@ public class studierneder {
     private String name;
     private int matrikelnummer;
     private String studiengang;
+    private int semester;
 
-    public studierneder(String name, int matrikelnummer) {
+    public studierneder(String name, int matrikelnummer, String studiengang, int semester) {
         this.name = name;
         this.matrikelnummer = matrikelnummer;
+        this.studiengang = studiengang;
+        this.semester = semester;
     }
 
     public String getName() {
