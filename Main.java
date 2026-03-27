@@ -4,14 +4,12 @@ public class Main {
         Dozierender dozent = new Dozierender("Prof. Stahl", "Informatik", "B123");
         Studierender s1 = new Studierender("Eddy", 12345, "UX Design");
 
-        // Interaktion testen
         s1.frageStellen(dozent, "Was ist OOP?");
         s1.sprechstundeAnfragen(dozent, "Montag 13:15", "Projekt");
 
         dozent.feedbackErhalten(s1, "Sehr gute Vorlesung!");
         dozent.zeigeFeedback();
 
-        // Lehrveranstaltung
         Lehrveranstaltung lv = new Lehrveranstaltung("Programmierung 1", dozent);
 
         lv.studierenderHinzufuegen(s1);

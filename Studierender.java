@@ -9,13 +9,11 @@ public class Studierender {
         this.studiengang = studiengang;
     }
 
-    // Frage stellen
     public void frageStellen(Dozierender dozent, String frage) {
         System.out.println(name + " fragt: " + frage);
         dozent.frageBeantworten(this, frage);
     }
 
-    // Sprechstundenanfrage
     public void sprechstundeAnfragen(Dozierender dozent, String termin, String thema) {
         System.out.println(name + " möchte eine Sprechstunde am " + termin + " zum Thema: " + thema);
         dozent.empfangeSprechstundenanfrage(this, termin, thema);
