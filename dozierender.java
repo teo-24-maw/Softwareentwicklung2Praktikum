@@ -39,7 +39,7 @@ public class Dozierender {
             System.out.println("- " + f);
         }
     }
-    // Getter
+    // Getterr
     public String getName() {
         return name;
     }
